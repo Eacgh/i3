@@ -184,3 +184,8 @@ bindsym $mod+r mode "resize"
 # UserConfig
 gaps inner 15
 new_window pixel
+exec_always --no-startup-id picom
+exec_always --no-startup-id feh --bg-fill --randomize ~/.config/i3/Pic/*
+
+#
+exec --no-startup-id xset dpms 600
