@@ -189,3 +189,7 @@ exec_always --no-startup-id feh --bg-fill --randomize ~/.config/i3/Pic/*
 
 # Screen off time
 exec --no-startup-id xset dpms 600
+
+# Fish_Shell Screenshots
+# mkdir -p ~/Pic
+bindsym $mod+Shift+p exec --no-startup-id fish -c 'scrot ~/Pic/(date).png'
